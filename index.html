@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Udemy_clone</title>
+    <!-- Link Google font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&display=swap" rel="stylesheet">
+    <!-- Link CSS file into html file -->
+    <link rel="stylesheet" href="style.css">
+    <!-- link icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- navbar -->
+    <div class="navbar">
+        <div class="navbar__title">
+            <h1>Udemy</h1>
+        </div>
+        <div class="navbar__search">
+            <i class="fa-solid fa-magnifying-glass" style="color: #000000;"></i>
+            <input placeholder="Search for anything here. Tech, Business, Art,...">
+        </div>
+        <div class="navbar__courses">
+            <p>Trending Courses</p>
+            <p>My Learning</p>
+            <i class="fa-solid fa-cart-shopping" style="color: #000000;"></i>
+            <i class="fa-solid fa-bell" style="color: #000000;"></i>
+            <i class="fa-solid fa-user" style="color: #000000;"></i>
+        </div>
+    </div>
+    <!--menubar -->
+    <div class="menubar">
+        <p>Development</p>
+        <p>Business</p>
+        <p>IT & Software</p>
+        <p>Personal Development</p>
+        <p>Design</p>
+        <p>Marketing</p>
+        <p>Journalism</p>
+    </div>
+    <!--Display_image -->
+    <div class="display_image">
+        <img src="./images/display_image.png" alt="display_image">
+
+    </div>
+    <!-- Recommanded Couses -->
+    <div class="recommended_courses">
+        <h1>Recommanded Courses</h1>
+        <p>From critical skills to technical topics, Udemy supports your professional development.</p>
+        <div class="courses_container">
+            <div class="course">
+                <img src="./images/Full stack.jpg">
+                <h4>The complete Full stack web Development Bootcamp</h4>
+                <p>Learn how to build websites from scratch, from the basics to advanced concepts.</p>
+                <p>Dr.Angela</p>
+                <p>4.5 ⭐⭐⭐⭐</p>
+                <p>₹30000 <del>45000</del></p>
+
+            </div>
+            <div class="course">
+                <img src="./images/Python.jpg">
+                <h4>The complete Python Bootcamp From Zero to Hero in python</h4>
+                <p>Learn Python from scratch, including object-oriented programming, data structures, algorithms, and
+                    more.</p>
+                <p>Dr.Ron Sheng</p>
+                <p>4.3 ⭐⭐⭐⭐</p>
+                <p>₹37000 <del>42000</del></p>
+
+            </div>
+            <div class="course">
+                <img src="./images/Networking.jpg">
+                <h4>The complete Networking Fundamentals Couse</h4>
+                <p>Learn how to build networks from scratch, from the basics to advanced concepts.</p>
+                <p>Eunice Lee</p>
+                <p>4.6 ⭐⭐⭐⭐</p>
+                <p>₹40000 <del>48000</del></p>
+
+            </div>
+            <div class="course">
+                <img src="./images/Robotics.jpg">
+                <h4>Electricity & Electronics - Robotics. learn by building</h4>
+                <p>Learn how to build robots, control them, and create your own projects.</p>
+                <p>Dr.Priya</p>
+                <p>4.1 ⭐⭐⭐⭐</p>
+                <p>₹50000 <del>70000</del></p>
+
+            </div>
+
+        </div>
+
+    </div>
+    <!-- Recommanded Topics -->
+    <div class="recommanded_topics">
+        <h1>Recommanded Topics for you</h1>
+        <div class="recommanded_topics__search">
+            <i class="fa-solid fa-magnifying-glass" style="color: #000000;"></i>
+            <input placeholder="Search your favorite topic here.... ">
+        </div>
+        <div class="recommanded_topics__items">
+
+            <p>Website</p>
+            <p>Javascript</p>
+            <p>CSS</p>
+            <p>Mango DB</p>
+            <p>Python</p>
+            <p>AWS</p>
+            <p>SQL</p>
+            <p>GitHUN</p>
+            <p>Java</p>
+        </div>
+
+    </div>
+    <!-- Popular Courses -->
+    <div class="popular_course">
+        <h1>Popular Courses</h1>
+        <p>Pick the best</p>
+        <div class="popular_course__container">
+            <div class="popular_course__container__course">
+                <img src="./images/SQL.jpg">
+                <h4>The Complete SQL Bootcamp: Go from Zero to Hero</h4>
+                <p>Learn SQL from scratch, including SELECT, INSERT, UPDATE, DELETE, and JOIN.</p>
+                <p>Tang</p>
+                <p>4.0 ⭐⭐⭐⭐</p>
+                <p>₹38000 <del>47000</del></p>
+
+            </div>
+            <div class="popular_course__container__course">
+                <img src="./images/React.jpg">
+                <h4>React - The Complete Guide 2025 (incl. Next.js, Redux)</h4>
+                <p>Learn React from scratch, including components, props, state, and hooks.</p>
+                <p>Dr.Angela</p>
+                <p>4.4 ⭐⭐⭐⭐</p>
+                <p>₹39000 <del>45000</del></p>
+
+            </div>
+            <div class="popular_course__container__course">
+                <img src="./images/Cyber_Security.jpg">
+                <h4>Cyber Security: From Beginner to Expert</h4>
+                <p>Learn cybersecurity from scratch, including firewalls, network security, and encryption.</p>
+                <p>Suresh</p>
+                <p>3.7 ⭐⭐⭐</p>
+                <p>₹39000 <del>45000</del></p>
+
+            </div>
+            <div class="popular_course__container__course">
+                <img src="./images/Full stack.jpg">
+                <h4>Full stack generative and Agentic AI with python</h4>
+                <p>Learn Python, Django, and React.js to build generative and agentic AI applications.</p>
+                <p>Ravi</p>
+                <p>4.2 ⭐⭐⭐⭐</p>
+                <p>₹50000 <del>60000</del></p>
+
+            </div>
+            <div class="popular_course__container__course">
+                <img src="./images/java.jpg">
+                <h4>Java Spring Framework, Spring Boot, Spring AI - Gen AI</h4>
+                <p>Learn Java, Spring Framework, and Spring Boot to build gen AI applications.</p>
+                <p>Dr.Susi</p>
+                <p>4.5 ⭐⭐⭐⭐</p>
+                <p>₹20000 <del>30000</del></p>
+
+            </div>
+            <div class="popular_course__container__course">
+                <img src="./images/image_processing.jpg">
+                <h4>Image Processing and Computer Vision with Python & OpenCV</h4>
+                <p>Learn Python and OpenCV to build image processing and computer vision applications.</p>
+                <p>padma</p>
+                <p>4.5 ⭐⭐⭐⭐</p>
+                <p>₹29000 <del>45000</del></p>
+
+            </div>
+            <div class="popular_course__container__course">
+                <img src="./images/Journal.jpg">
+                <h4>Journaling Mastery: Become Your Best Self</h4>
+                <p>Learn how to journal, meditate, and practice mindfulness to become your best self.</p>
+                <p>Wanton</p>
+                <p>3 ⭐⭐⭐</p>
+                <p>₹18000 <del>22000</del></p>
+
+            </div>
+            <div class="popular_course__container__course">
+                <img src="./images/Marketing.jpg">
+                <h4>Marketing Psychology and Consumer Behavior</h4>
+                <p>Learn marketing psychology and consumer behavior to create effective marketing strategies.</p>
+                <p>Dr.Lick</p>
+                <p>4.3 ⭐⭐⭐⭐</p>
+                <p>₹10000 <del>15000</del></p>
+
+            </div>
+
+
+        </div>
+
+    </div>
+    <!-- Footer -->
+    <div class="footer">
+        <div class="footer1">
+            <div class="footer1_sec1">
+                <p>Udemy Business</p>
+                <p>Teach on Udemy</p>
+                <p>Get the app</p>
+                <p>About us</p>
+                <p>Contact us</p>
+            </div>
+            <div class="footer1_sec2">
+                <p>Careers</p>
+                <p>Blog</p>
+                <p>Help and Support</p>
+                <p>Affiliate</p>
+                <p>Investor</p>
+            </div>
+
+        </div>
+        <div class="footer2">
+            <h1>Udemy</h1>
+            <p>&copy; 2025 Udemy, Inc.</p>
+
+        </div>
+
+    </div>
+</body>
+
+
+</html>

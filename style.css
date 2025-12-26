@@ -1,0 +1,174 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Gabarito", sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid black 1px;
+    gap: 10px;
+    padding: 10px;
+    align-items: center;
+}
+
+.navbar__title {
+    color: blueviolet;
+}
+
+.navbar__search {
+    border: 1px solid black;
+    border-radius: 30px;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+}
+
+.navbar__search input {
+    border: 0;
+    width: 100%;
+    font-size: 15px;
+}
+
+.navbar__search input:focus {
+    outline: none;
+}
+
+.navbar__courses {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.menubar {
+    display: flex;
+    padding: 5px;
+    justify-content: space-around;
+    border-bottom: solid black 1px;
+}
+
+.menubar p {
+    border: solid black 1px;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: lightskyblue
+}
+
+.display_image img {
+    width: 100%;
+}
+
+.recommended_courses {
+    padding: 10px;
+
+}
+
+.courses_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 15px;
+
+}
+
+.course {
+    width: 400px;
+}
+
+.course img {
+    height: 50%;
+    width: 100%;
+}
+
+.recommanded_topics {
+    padding: 10px;
+}
+
+.recommanded_topics__items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.recommanded_topics__items p {
+    border: solid black 1px;
+    padding: 10px;
+    flex-basis: 25%;
+    margin: 10px;
+    flex-grow: 1;
+}
+
+.recommanded_topics__search {
+
+    padding: 10px;
+    margin: 10px;
+    width: 50%;
+    border: solid rgb(57, 23, 170) 2px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.recommanded_topics__search input {
+    border: none;
+    width: 100%;
+    font-size: 15px;
+}
+
+.recommanded_topics__search input:focus {
+    outline: none;
+}
+
+.popular_course {
+    margin: 10PX;
+}
+
+.popular_course__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 10px;
+
+}
+
+.popular_course__container__course {
+    width: 400px;
+}
+
+.popular_course__container__course img {
+    width: 100%;
+    height: 50%;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+.footer1 {
+    display: flex;
+    gap: 50px;
+    padding: 10px;
+    margin: 10px;
+
+}
+
+.footer1 p {
+    padding: 10px;
+}
+
+.footer2 {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+
+}
