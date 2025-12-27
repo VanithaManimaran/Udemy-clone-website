@@ -78,7 +78,7 @@ body {
 }
 
 .course {
-    width: 400px;
+    flex-basis: 22%;
 }
 
 .course img {
